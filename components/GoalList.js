@@ -16,7 +16,7 @@ const GoalList = props => {
                     placeholder="To Do"
                     style={styles.input}
                     onChangeText={text => goalInputHandler(text)}
-                    value={enteredGoals}
+                    value={enteredGoal}
                 />
 
                 <View style={styles.alignButtons}>
